@@ -1,0 +1,17 @@
+.column {
+    float: left;
+    width: 50%;
+}
+.container {
+    margin: auto;
+    width: 80%;
+}
+#logo {
+    display: block;
+    max-width: 25%;
+    float: right;
+}
+#ourstory {
+    margin: auto;
+    width: 100%;
+}

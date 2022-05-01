@@ -1,0 +1,56 @@
+.center {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.parent {
+    display: grid;
+    grid-template: auto / repeat(6, 1fr);
+    row-gap: 10px;
+}
+.bannercontainer {
+    display: grid;
+    grid-template: 1fr / repeat(6, 1fr);
+    row-gap: 10px;
+}
+.left33 {
+    grid-column: 1 / 3;
+}
+.right33 {
+    grid-column: 5 / 7;
+}
+header {
+    grid-column: 1 / 7;
+    background-color: plum;
+    height: 100px;
+}
+footer {
+    grid-column: 1 / 7;
+    background-color: plum;
+}
+.left50 {
+    grid-column: 1 / 4;
+    background-color: whitesmoke;
+}
+.right50 {
+    grid-column: 4 / 7;
+    background-color: whitesmoke;
+}
+.all {
+    grid-column: 1 / 7;
+}
+.logo {
+    float: right;
+    width: auto;
+    height: 100px;
+}
+#magglass {
+    width: 30px;
+    margin-left: 45%;
+}
+#playstation {
+    margin-left: 20px;
+    background-color: lightgray;
+}
